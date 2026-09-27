@@ -1,0 +1,6 @@
+{
+  "name": "WebDev Academy",
+  "description": "Learn. Code. Build. Deploy. Advanced web development learning academy with interactive playgrounds, roadmaps, tools, projects, and AI tutor. Created by Awiskar Acharya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

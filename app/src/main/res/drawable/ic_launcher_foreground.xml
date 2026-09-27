@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Terminal Window Container (Safe zone: center 54, 54) -->
+    <path
+        android:pathData="M28,30 C28,27 30,25 33,25 L75,25 C78,25 80,27 80,30 L80,78 C80,81 78,83 75,83 L33,83 C30,83 28,81 28,78 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="25"
+                android:endX="80"
+                android:endY="83"
+                android:type="linear">
+                <item android:color="#1E293B" android:offset="0.0" />
+                <item android:color="#0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Terminal Border -->
+    <path
+        android:pathData="M28,30 C28,27 30,25 33,25 L75,25 C78,25 80,27 80,30 L80,78 C78,81 75,83 75,83 L33,83 C30,83 28,81 28,78 Z"
+        android:strokeColor="#38BDF8"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+
+    <!-- Terminal Title Bar -->
+    <path
+        android:pathData="M28,30 C28,27 30,25 33,25 L75,25 C78,25 80,27 80,30 L80,37 L28,37 Z"
+        android:fillColor="#334155" />
+
+    <!-- Window Dots: Red, Yellow, Green -->
+    <path
+        android:pathData="M33,31 A2,2 0 1,0 37,31 A2,2 0 1,0 33,31 Z"
+        android:fillColor="#EF4444" />
+    <path
+        android:pathData="M40,31 A2,2 0 1,0 44,31 A2,2 0 1,0 40,31 Z"
+        android:fillColor="#F59E0B" />
+    <path
+        android:pathData="M47,31 A2,2 0 1,0 51,31 A2,2 0 1,0 47,31 Z"
+        android:fillColor="#10B981" />
+
+    <!-- Left Bracket < -->
+    <path
+        android:pathData="M45,47 L36,56 L45,65"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Center Slash / -->
+    <path
+        android:pathData="M51,67 L57,45"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Right Bracket > -->
+    <path
+        android:pathData="M63,47 L72,56 L63,65"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Academy Sparkle / Crest at top right -->
+    <path
+        android:pathData="M74,38 L75,41 L78,42 L75,43 L74,46 L73,43 L70,42 L73,41 Z"
+        android:fillColor="#FBBF24" />
+
+</vector>
